@@ -12,7 +12,6 @@ body {
   text-align: center;
   padding: 1em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
 }
 
 .card img {
@@ -33,13 +32,27 @@ body {
 }
 
 .market img {
-  padding: auto;
-  width: 400px;
-  height: 400px;
+  padding: none;
+  height: 500px;
   border: none;
+  border-radius: 1em;
 }
 .btn {
   color: rgb(27, 25, 30);
-  background-color: bisque;
+  background-color: rgb(88, 160, 237);
   border: none;
+  margin-top: auto;
+  padding: 10px 15px;
+  border-radius: 100px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.second p {
+  font-size: 2rem;
+  text-align: justify;
+}
+.market {
+  background-color: rgb(245, 245, 220, 0.4);
 }
