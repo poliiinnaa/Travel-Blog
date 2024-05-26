@@ -32,7 +32,7 @@ body {
 }
 
 .market img {
-  padding: none;
+  padding: 0%;
   height: 500px;
   border: none;
   border-radius: 1em;
